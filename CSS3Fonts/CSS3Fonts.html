@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS3 Embedded Fonts</title>
+
+<style type="text/css">
+
+@font-face{
+	font-family:'BleedingCowboys';
+	src: url('fonts/BleedingCowboys.eot'); 
+	src: local('BleedingCowboys'), url('fonts/BleedingCowboys.ttf') format('truetype') ;
+
+}
+@font-face{
+	font-family:'bendable';
+	src: url('fonts/bendable.eot'); 
+	src: local('bendable'), url('fonts/bendable.ttf') format('truetype') ;
+
+}
+@font-face{
+	font-family:'Darkh4';
+	src: url('fonts/Darkh4'); 
+	src: local('Darkh4'), url('fonts/Darkh4.ttf') format('truetype') ;
+
+}
+
+p.west{
+	font-family:BleedingCowboys,Geneva,serif;
+	font-size: 36px;
+
+}
+p.bend{
+	font-family:bendable,Geneva,serif;
+	font-size: 36px;
+
+}
+p.dark{
+	font-family:Darkh4,Geneva,serif;
+	font-size: 36px;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<p class="west">
+	This font is called Bleeding Cowboys.
+</p>
+<p class="bend">
+	This font is called bendable.
+</p>
+<p class="dark">
+	This font is called Darkh4.
+</p>
+
+</body></html>
