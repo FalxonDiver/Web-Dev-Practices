@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RentAPet</title>
+<link rel="icon" href="imgs/logo.png" type="image/icon">
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+<script src="myscripts.js"></script>
+</head>
+<body onload="preloadImages">
+    <header class="head">
+        <img src="imgs/logo2.png" alt="logo" width="200" height="200">
+        <img src="imgs/banner.gif" alt="banner" width="700" height="200">
+        <nav>
+            <ul class="topNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Tributes</a></li>
+                <li><a href="#">Survey</a></li>
+                <li><a href="#">Favorites</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2 id="welcome">Welcome to Rent A Pet!</h2>
+        <article>
+            <p>If you love to interact with pets like we do, you should enjoy looking around this site.  Take a look at our Pet Profiles and take the opportunity to complete our survey.</p>
+            <h2>Image Swap Example</h2>
+            <p class="instructions">[Instructions:  Mouse over small images to see larger image.]</p>
+            <div id="thumbs">
+                <img src="imgs/thumbnails/Pet1Sm.jpg" alt="Lady With Dog" onmouseover="swapImage(0);">
+                <img src="imgs/thumbnails/KidsDogSmall.jpg" alt="Kids Dog" onmouseover="swapImage(1);">
+                <img src="imgs/thumbnails/HuntingDogsSm.jpg" alt="2 Dogs" onmouseover="swapImage(2);">
+                <img src="imgs/thumbnails/FrisbeeDogSm.jpg" alt="Dog With Frisbee" onmouseover="swapImage(3);">
+                <br>
+                    
+            </div>
+            <div id="image">
+        
+                <img id="theImage" src="imgs/fullsize/Pet1.jpg" alt="Pet1">
+                <h3 id="bottomText">Lady With Dog</h3>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <a href="ns032453@gmail.com">Email The Owner!</a>
+        <p id="web">This website was made for educational purposes.</p>
+    </footer>
+</body>
+</html>
