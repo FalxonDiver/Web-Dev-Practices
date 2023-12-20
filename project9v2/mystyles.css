@@ -1,0 +1,227 @@
+.head{
+    background: #d5e0eb;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 915px;
+}
+.topNav{
+    display: flex;
+    margin: 25px;
+}
+.topNav li{
+    list-style: none;
+    margin: 4px;
+    padding: 3px;
+    border: 5px solid #b3d9ff;
+    border-radius: 15px;
+    background-color: #111315;
+    color: #b3d9ff;
+}
+.topNav li a{
+    text-decoration: none;
+}
+.topNav li a:hover{
+    border-radius: 3px;
+    background-color: #464b4e;
+    color: #b3d9ff;
+}
+#banner{
+    border-radius: 10px;
+}
+    .imgP{
+        display: flex;
+    }
+    .top{
+        text-align: center;
+        font-size: 30px;
+    }
+    #petsmartImg{
+        border-radius: 15px;
+        background: #ffffff;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #desText{
+        color: #111315;
+    }
+    .petsmart{
+        text-align: center;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px;
+        width: 600px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .petco{
+        text-align: center;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px;
+        width: 600px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #petcoImg{
+        border-radius: 15px;
+        background: #ffffff;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #des1Text{
+        color: #111315;
+    }
+    .chewy{
+        text-align: center;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px;
+        width: 600px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #chewyImg{
+        border-radius: 15px;
+        background: #ffffff;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #des2Text{
+        color: #111315;
+    }
+    .petsense{
+        text-align: center;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px;
+        width: 600px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #petsenseImg{
+        border-radius: 15px;
+        background: #ffffff;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #des3Text{
+        color: #111315;
+    }
+    .petmarket{
+        text-align: center;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px;
+        width: 600px;
+        height: 275px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #petmarketImg{
+        border-radius: 15px;
+        background: #ffffff;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #des4Text{
+        color: #111315;
+    }
+    body{
+        background-color: #111315;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    a:link{
+        color: #b3d9ff;
+    }
+    a:visited{
+        color: #124063;
+    }
+    a:hover{
+        color: #2d6c9c;
+    }
+    h1{
+        color: #d8ebff;
+    }
+    h2{
+        color: #cbd4dd;
+        text-align: center;
+    }
+    h3{
+        color: #c0ccd8;
+    }
+    p{
+       color: #999EA3; 
+    }
+    li{
+        color: #cbd0d6;
+        line-height: 2;
+    }
+    #GermanShephard3{
+        display: block;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px; 
+        width: 200px;
+        height: 298px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Snake1{
+        display: block;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px; 
+        width: 250px;
+        height: 168px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #FrisbeeDogSm{
+        display: block;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px; 
+        width: 250px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #CatandDogSm{
+        display: block;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px; 
+        width: 250px;
+        height: 165px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #horseHound{
+        text-align: center;
+    }
+    #Horse2{
+        display: block;
+        border-radius: 15px;
+        background: #d5e0eb;
+        padding: 10px; 
+        width: 350px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #blue{
+        width: 12px;
+        height: 12px;
+    }
